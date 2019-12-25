@@ -10,7 +10,7 @@ function App() {
   return (
     
     <div>
-      <Header data={"i am from tero baau"} arkodata={"ma tero baau"}/>
+      <Header/>
       <Sheader ishwor={'i am khatra manxa'}/>
     </div>
       
