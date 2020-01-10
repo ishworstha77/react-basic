@@ -1,0 +1,30 @@
+#top-bar{
+	width:100%;
+	font-size: 12px;
+	overflow:hidden;
+	padding:10px;
+	background-color:black;
+	color:white;
+	
+}
+#container{
+	position:relative;
+	width:920px;
+	margin:0 auto;
+}
+#left{
+	float:left;
+	display:inline;
+}
+#right{
+	float:right;
+}
+#inquiry{
+	margin-right:10px;
+	display:inline;
+	color:#95A5A6
+}
+#top-bar a{
+	text-decoration:none;
+	color:white;
+}

@@ -13,6 +13,8 @@ import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import Link from '@material-ui/core/Link';
+import './Header.css';
+import Paper from '@material-ui/core/Paper';
 
 function Copyright() {
   return (
@@ -68,12 +70,31 @@ export default function Header() {
     <React.Fragment>
       <CssBaseline />
       <AppBar position="relative">
-        <Toolbar>
+				<div id="top-bar">
+			<div id="container">
+					<div id="left">
+						<div id="inquiry">
+							Have any questions?
+						</div>
+						<i class="fas fa-phone-alt"></i>
+						<a href="tel:9849660038">9849660038</a> &nbsp; |
+						<a href="tel:9869539988">9869539988</a> &nbsp; |
+						<a href="tel:9813464749">9813464749</a>
+					</div>
+					<div id="right">
+						<i class="fas fa-envelope"></i>
+						<a href="mailto:info@nepalfilmacademy.com.np">		info@nepalfilmacademy.com.np
+						</a>
+					</div>
+			</div>
+		</div>
+		<Toolbar>
           <CameraIcon className={classes.icon} />
           <Typography variant="h6" color="inherit" noWrap>
-            Album layout
+            yes
           </Typography>
-        </Toolbar>
+		 </Toolbar>
+        
       </AppBar>
       <main>
         {/* Hero unit */}
